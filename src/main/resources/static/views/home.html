@@ -1,0 +1,68 @@
+<br>
+<br>
+<center>
+<div class="panel" style="width:70%">
+	<div class="heading">
+            <span class="icon mif-pencil"></span>
+		<span class="title">
+			Create New Post
+		</span>
+	</div>
+		<div class="content">
+			<form>
+			<table style="width:100%">
+				<tr>
+				<td>Title</td>
+				<td>
+					<div class="input-control text full-size">
+                                            <input type="text" name="title" ng-model="currentMynotes.title">
+						</div>
+				</td>
+				</tr>
+				<tr>
+				<td>Content</td>
+				<td>
+					<div class="input-control textarea full-size">
+                                            <textarea name="note" ng-model="currentMynotes.note"></textarea>
+					</div>
+						</td>
+				</tr>
+				
+				<td></td>
+				<td>
+                                    <button class="button" ng-click="simpanData(currentMynotes)">Save</button>
+				</td>	
+		</table>
+                        
+	</div>
+    <br><br>
+    <div class="panel">
+<div class="heading">
+<span ng-click="tampilkanData()" class="icon mif-eye"></span>
+<span class="title">All Notes</span>
+</div>
+<div class="content">
+<!--<button class="button info block-shadow-info text-shadow" ng-click="tampilkanData()"><span class="icon mif-loop2"></span></button>-->
+ <table class="table">
+    <thead>
+    <tr>
+    <th class="sortable-column">Title</th>
+    <th class="sortable-column">Note</th>
+    <th class="sortable-column">Action</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="mynotes in dataServer">
+            <td>{{ mynotes.title }}</td>
+            <td>{{ mynotes.note }}</td>
+            <td><button class="button danger" ng-click="hapusData(mynotes.id)">Delete</button>
+                <button class="button success" ng-click="editData(mynotes)">Edit</button></td>
+        </tr>
+    </tbody>
+    </table>   
+</div>
+</div>
+</div>
+    <br>
+    <br>
+    <p style="float:right" class="icon mif-paw">rizdaannisa</p>

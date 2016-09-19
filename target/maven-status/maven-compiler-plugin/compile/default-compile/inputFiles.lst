@@ -1,0 +1,10 @@
+/home/rizdaannisa/mynotesrzd-springboot/src/main/java/mynotesrzd/springboot/service/MynotesDao.java
+/home/rizdaannisa/mynotesrzd-springboot/src/main/java/mynotesrzd/springboot/domain/Mynotes.java
+/home/rizdaannisa/mynotesrzd-springboot/src/main/java/mynotesrzd/springboot/App.java
+/home/rizdaannisa/mynotesrzd-springboot/src/main/java/mynotesrzd/springboot/controller/UserController.java
+/home/rizdaannisa/mynotesrzd-springboot/src/main/java/mynotesrzd/springboot/config/SecurityConfig.java
+/home/rizdaannisa/mynotesrzd-springboot/src/main/java/mynotesrzd/springboot/service/UserDao.java
+/home/rizdaannisa/mynotesrzd-springboot/src/main/java/mynotesrzd/springboot/domain/User.java
+/home/rizdaannisa/mynotesrzd-springboot/src/main/java/mynotesrzd/springboot/domain/Permission.java
+/home/rizdaannisa/mynotesrzd-springboot/src/main/java/mynotesrzd/springboot/domain/Role.java
+/home/rizdaannisa/mynotesrzd-springboot/src/main/java/mynotesrzd/springboot/controller/MynotesController.java

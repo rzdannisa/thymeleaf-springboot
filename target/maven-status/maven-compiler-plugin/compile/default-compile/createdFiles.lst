@@ -1,0 +1,10 @@
+mynotesrzd/springboot/domain/Permission.class
+mynotesrzd/springboot/controller/UserController.class
+mynotesrzd/springboot/config/SecurityConfig.class
+mynotesrzd/springboot/domain/Role.class
+mynotesrzd/springboot/service/UserDao.class
+mynotesrzd/springboot/controller/MynotesController.class
+mynotesrzd/springboot/domain/Mynotes.class
+mynotesrzd/springboot/service/MynotesDao.class
+mynotesrzd/springboot/App.class
+mynotesrzd/springboot/domain/User.class

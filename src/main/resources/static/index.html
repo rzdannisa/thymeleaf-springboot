@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Notes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link href="lib/css/metro.css" rel="stylesheet">
+    <link href="lib/css/metro-icons.css" rel="stylesheet">
+    <link href="lib/css/metro-responsive.css" rel="stylesheet">
+    <link href="lib/css/metro-schemes.css" rel="stylesheet">
+    <link href="lib/css/docs.css" rel="stylesheet">
+    
+    <script src="lib/js/angular.min.js"></script>
+    <script src="lib/js/angular-route.js"></script>
+    <script src="views/home.html"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controller/mynotesController.js"></script>
+    <script src="scripts/service/mynotesService.js"></script>
+</head>
+    <body ng-app="aplikasiMynotes" class="grey lighten-4">
+    <div class="app-bar navy" data-role="appbar">
+                    <a class="app-bar-element branding">My Notes</a>
+                    <span class="app-bar-divider"></span>
+                    <ul class="app-bar-menu">
+                        <li><a href="/">Home</a></li></ul>
+                    <div class="app-bar-element place-right">
+                        <a href="/logout" class="fg-white"><span class="mif-enter"></span> Logout</a></div></div>
+                    <div ng-view=""></div>
+</body>
+</html>
